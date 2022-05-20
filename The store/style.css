@@ -1,0 +1,58 @@
+*{
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 100px;
+  margin: 0;
+  color: blueviolet;
+}
+
+h3,p{
+  text-align: center;
+}
+
+.menu{
+  margin: 40px 400px;
+  width: 800px;
+}
+
+.menu li a{
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 40px;
+  color: black;
+}
+
+.menu li a:hover{
+  color: white;
+  background-color: blueviolet;
+  width: 150px;
+}
+
+img{
+  width: 300px;
+}
+
+.card{
+  display: inline-flex;
+  margin-left: 200px;
+}
+
+#card-element{
+  margin-right: 80px;
+  
+}
+
+#card-element:hover{
+  background-color: rgb(190, 186, 186);
+  position: relative;
+  transition: 0.5s;
+  padding: 3px;
+}
+
+
